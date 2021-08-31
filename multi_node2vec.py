@@ -37,7 +37,7 @@ def parse_args():
     parser.add_argument('--d', type=int, default=100,
                         help='Dimensionality. Default is 100.')
 
-    parser.add_argument('--walk_length', type=int, default=100,
+    parser.add_argument('--walk_length', type=int, default=500,
                         help='Length of each random walk. Default is 100.')
                         
     parser.add_argument('--window_size', type=int, default = 10,
